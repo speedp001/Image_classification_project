@@ -90,13 +90,13 @@ def train(model, train_loader, val_loader, epochs, optimizer, criterion, device)
 def main() :
     device = torch.device("mps")
 
-    # ###1. resnet50으로 30번 학습한 데이터 전이학습 시에 학습 효과 실습
-    # model = resnet50(pretrained=False)
-    # in_features_ = 2048
-    # model.fc = nn.Linear(in_features_, 15)
+    ###1. resnet50으로 30번 학습한 데이터 전이학습 시에 학습 효과 실습
+    model = resnet50(pretrained=False)
+    in_features_ = 2048
+    model.fc = nn.Linear(in_features_, 15)
     
-    # checkpoint = torch.load(f="./grass_project/resnet50_epoch_30.pt", map_location=device)
-    # model.to(device)
+    checkpoint = torch.load(f="./grass_project/resnet50_epoch_30.pt", map_location=device)
+    model.to(device)
     
     
     ## 2. base 학습 옵션
