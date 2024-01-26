@@ -4,13 +4,14 @@
 
 # food project
 /food_project/food_dataset
+/food_project/food_org_dataset
 
 # grass project
 /grass_project/grass_dataset
 /grass_project/grass_org_dataset
 
 # handwrite project
-/handwrite/handwrite_data
+/handwrite_project/handwrite_dataset
 
 # meal project
 /meal_project/meal_dataset
