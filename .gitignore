@@ -1,6 +1,37 @@
-# Audio data
+# audio project
 /audio_project/audio_data/
 /audio_project/audio_org_data/
 
-# Food data
+# food project
 /food_project/food_dataset
+
+# grass project
+/grass_project/grass_dataset
+/grass_project/grass_org_dataset
+
+# handwrite project
+/handwrite/handwrite_data
+
+# meal project
+/meal_project/meal_dataset
+
+# metal project
+/metal_project/metal_dataset
+/metal_project/metal_org_dataset
+
+# paintings project
+/paintings_project/paintings
+/paintings_project/paintings_split
+
+# pneumonia project
+/pneumonia_project/pneumonia_dataset
+/pneumonia_project/pneumonia_org_dataset
+
+# skindisease project
+/skindisease_project/skindisease_dataset
+
+# sports project
+/sports_project/sports_dataset
+
+# US license plates project
+/US_license_plates_project/US_license_plates_dataset
