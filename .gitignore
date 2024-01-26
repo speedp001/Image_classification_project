@@ -1,6 +1,6 @@
 # Audio data
-./audio_project/audio_data/
-./audio_project/audio_org_data/
+/audio_project/audio_data/
+/audio_project/audio_org_data/
 
 # Food data
-./food_project/food_dataset
+/food_project/food_dataset
