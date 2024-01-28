@@ -98,7 +98,7 @@ def crop_and_save_image(path_json_file, dir_output, train_ratio=0.9) :
             
             
             
-            final_save = os.path.join(dir_save, f"{filename}+{label_name}_{bbox_idx}.png")
+            final_save = os.path.join(dir_save, f"{filename}_{label_name}_{bbox_idx}.png")
             image_padded.save(final_save)
             
         
