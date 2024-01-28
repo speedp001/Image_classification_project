@@ -89,7 +89,7 @@ def train(model, train_loader, val_loader, epochs, optimizer, criterion, device)
 def main() :
     device = torch.device("mps")
 
-    model = efficientnet_v2_s(pretrained=True)
+    model = efficientnet_v2_s(weights=True)
     in_features_ = 1280
     model.classifier[1] = nn.Linear(in_features_, 6)
     model.to(device)

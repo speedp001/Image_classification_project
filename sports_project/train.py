@@ -1,7 +1,6 @@
 import os
 import torch
 import argparse
-import torchvision
 import torch.nn as nn
 import albumentations as A
 import matplotlib.pyplot as plt
