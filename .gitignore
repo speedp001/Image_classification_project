@@ -1,3 +1,6 @@
+# ignore pycache
+*.pyc
+
 # audio project
 /audio_project/audio_data/
 /audio_project/audio_org_data/
